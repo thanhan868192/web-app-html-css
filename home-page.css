@@ -1113,11 +1113,34 @@ body {
     font-size: 14px;
   }
   .caption-text {
-    font-size: 12px;
+    font-size: 10px;
   }
   .control {
     width: 40px;
     height: 40px;
+  }
+}
+
+@media (max-width: 390px) {
+  .plus-gallery-section .caption-button {
+    background: #fff;
+    padding: 8px 8px;
+  }
+
+  .plus-gallery-section .btn {
+    border-radius: 999px;
+    font-size: 0.78rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .caption-text {
+    font-size: 7px;
+  }
+
+  .caption-title {
+    margin: 0;
+    font-size: 12px;
   }
 }
 
