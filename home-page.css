@@ -348,6 +348,32 @@ body {
   margin-bottom: 1rem;
   margin-top: 0;
 }
+
+@media (max-width: 767px) {
+  .hero-section .overlay-content {
+    padding: 0.5rem;
+  }
+
+  .hero-section .head {
+    font-size: 32px;
+  }
+
+  .hero-section .subhead {
+    font-size: 18px;
+  }
+
+  .hero-section .small-note {
+    font-size: 18px;
+  }
+
+  .hero-section .btn {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
 /* end hero section */
 
 /* get to know section */
@@ -498,6 +524,22 @@ body {
 
   .promo-section .row {
     flex-direction: column;
+  }
+
+  .promo-section .promo-head {
+    font-size: 30px;
+  }
+
+  .promo-section .promo-subhead {
+    font-size: 18px;
+  }
+
+  .promo-section .btn-row {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
